@@ -242,36 +242,45 @@ hr {
 
 /* form */
 
-.form-section {
+#form-section-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#form-section {
   clear: left;
+  width: 100%;
   background: url("/assets/img/food_table.jpg") no-repeat center center;
   background-size: cover;
   background-position: center;
-  height: 900px;
+  height: 600px;
 }
 
-#cover-text-sign-up, cover-text-sign-up h2 {
+#cover-text-sign-up, cover-text-sign-up h4 {
   color: #ffffff;
+  font-size: 80%;
 }
 
 #cover-text-sign-up {
-  font-size: 110%;
+  font-size: 80%;
   font-family: DM Mono;
   text-align: left;
   text-decoration: #777777;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 
-  width: 500px;
-  height: 200px;
+  width: 400px;
+  height: 210px;
 
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   background-color: rgba(241, 109, 107, .7);
 
-  bottom: 500px;
+  bottom: 250px;
   left: 500px;
 
   border-radius: 15px;
@@ -289,7 +298,7 @@ hr {
   padding: 30px;
 }
 
-.signup-form h2 {
+.signup-form h4 {
   color: #fafafa;
   margin-bottom: 20px;
 }
@@ -380,6 +389,10 @@ hr {
     left: 0px;
   }
 
+  #cover-text-sign-up {
+    left: 10px;
+  }
+
   #logo {
     margin-left: 20px;
   }
@@ -429,5 +442,16 @@ hr {
 
   #cover-text {
     left: 0px;
+  }
+
+  #cover-text-sign-up, cover-text-sign-up h4 {
+    color: #ffffff;
+    font-size: 80%;
+    width: 350px;
+    height: 210px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
   }
 }

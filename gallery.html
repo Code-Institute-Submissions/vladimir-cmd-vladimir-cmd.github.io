@@ -19,19 +19,21 @@
 <body>
 	<header>
 		<nav class="navbar navbar-light navbar-expand-sm" style="background-color: #e3f2fd;">
-      <a href="index.html" class="navbar-brand">Delicious Food</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<div id="logo">
+				<a href="index.html" class="navbar-brand">Delicious Food</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>      
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active "><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+        <ul class="navbar-nav mr-auto mt-2">
+          <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="navbar-brand mb-0 h2 d-sm-inline nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
         </ul>
         <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 mr-sm-3" type="submit"><small>Search</small></button>
+          <input class="form-control mr-sm-2 d-none d-sm-inline d-md-inline" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 mr-sm-3 d-none d-sm-inline d-lg-inline" type="submit"><small>Search</small></button>
         </form>
       </div>
 		</nav>
