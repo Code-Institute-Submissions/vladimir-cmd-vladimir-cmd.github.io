@@ -1,457 +1,434 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&family=Source+Sans+Pro:ital@1&display=swap');
-
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
-  font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
-  /* color: lightblue; */
+    font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
+    /* color: lightblue; */
 }
 
 h2 {
-  font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
-  text-transform: uppercase;
+    font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
 }
 
 h3 {
-  font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
-  text-transform: uppercase;
+    font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
 }
 
 nav ul li a {
-  font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
-  /* color: lightblue; */
+    font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
+    /* color: lightblue; */
 }
 
 #logo {
-  opacity: 75%;
-  margin: 15px;
-  font-size: 200%;
-  float: left;
-  letter-spacing: 1px;
+    opacity: 75%;
+    margin: 15px;
+    font-size: 200%;
+    float: left;
+    letter-spacing: 1px;
 }
 
-.active{
-     border-bottom: 1px solid #777777;
+.active {
+    border-bottom: 1px solid #777777;
 }
 
 #navigation {
-  font-size: 100%;
-  text-align: center;
-  letter-spacing: 1px;
-  list-style-type: none;
+    font-size: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    list-style-type: none;
 }
 
 #navigation li {
-  float: right;
-  margin: 25px;
-  overflow: visible;
+    float: right;
+    margin: 25px;
+    overflow: visible;
 }
 
 #navigation a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 #main_img {
-  height: 600px;
-  width: 100%;
-  background: url("/assets/img/food_table.jpg") no-repeat center center;
-  animation-name: main_img;
-  animation-timing-function: ease-in-out;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+    height: 600px;
+    width: 100%;
+    background: url("/assets/img/main_image.jpg") no-repeat center center;
+    animation-name: main_img;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 #main_img_outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 @keyframes main_img {
-  0% {
-    transform: scale(0.1);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(1.2);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-  }
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
-#cover-text, cover-text h2 {
-  color: #ffffff;
+#cover-text,
+cover-text h2 {
+    color: #ffffff;
 }
 
 #cover-text {
-  font-size: 110%;
-  font-family: DM Mono;
-  text-align: center;
-  text-decoration: #777777;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-
-  width: 360px;
-  height: 180px;
-
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-
-  background-color: rgba(241, 109, 107, .7);
-
-  bottom: 50px;
-  left: 50px;
-
-  border-radius: 15px;
-
-  position: absolute;
+    font-size: 110%;
+    font-family: DM Mono;
+    text-align: center;
+    text-decoration: #777777;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: 360px;
+    height: 180px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 50px;
+    left: 50px;
+    border-radius: 15px;
+    position: absolute;
 }
 
 #site-description {
-  height: 400px;
-  width: 100%;
+    height: 400px;
+    width: 100%;
 }
 
 #welcome {
-  text-align: center;
-  margin: 20px 0;
-  font-size: 180%;
-  margin-bottom: 50px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 180%;
+    margin-bottom: 50px;
 }
 
-#left-panel{
-  padding-top: 30px;
-  width: 30%;
-  float: left;
+#left-panel {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
 }
 
-#right-panel{
-  padding-top: 30px;
-  width: 30%;
-  float: right;
+#right-panel {
+    padding-top: 30px;
+    width: 30%;
+    float: right;
 }
 
-#center-panel{
-  padding-top: 30px;
-  width: 40%;
-  margin: 0 auto;
+#center-panel {
+    padding-top: 30px;
+    width: 40%;
+    margin: 0 auto;
 }
 
 hr {
-  border-top: 1px solid #777777;
-  width: 100%;
-  margin: 5px 0;
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
 }
 
 .left-panel-heading {
-  width: 100%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 .right-panel-heading {
-  width: 100%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+    width: 100%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 .center-panel-square {
-  width: 100%;
-  height: 350px;
-  margin: 0 auto;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
 }
 
 #square-cover-bg {
-  background: url("/assets/img/ruske-kape.JPG") no-repeat center center;
-  height: 100%;
-  width: 100%;
-  border-radius: 10%;
-  padding-bottom: 30px;
+    background: url("/assets/img/little_cakes.JPG") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    padding-bottom: 30px;
 }
 
 .favorite {
-  text-align: center;
-  padding-top: 50px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 #diets {
-  background-image: url("/assets/img/food_table.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  overflow: hidden;
+    background-image: url("/assets/img/main_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
 }
 
-#diets_list h4{
-  text-align: left;
+#diets_list h4 {
+    text-align: left;
 }
 
-#diets_list ul{
-  text-align: left;
+#diets_list ul {
+    text-align: left;
 }
 
 #diets div {
-  color: #fafafa;
-  background-color: rgba(0,0,0, .6);
-  width: 19%;
-  height: 300px;
-  float: left;
-  padding: 30px 0 0 10px;
-  text-align: left;
-  margin: 4px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 19%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: left;
+    margin: 4px;
 }
 
 .social-networks {
-  text-align: center;
+    text-align: center;
 }
 
 .social-networks li {
-  display: inline;
+    display: inline;
 }
 
 .social-networks i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #777777;
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
 }
 
 #photo {
-  clear: both;
-  line-height: 0;
-  column-count: 3;
-  column-gap: 0px;
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
 }
 
 #photo img {
-  width: 100%;
+    width: 100%;
 }
+
 
 /* form */
 
 #form-section-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #form-section {
-  clear: left;
-  width: 100%;
-  background: url("/assets/img/food_table.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: center;
-  height: 600px;
+    clear: left;
+    width: 100%;
+    background: url("/assets/img/main_image.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
-#cover-text-sign-up, cover-text-sign-up h4 {
-  color: #ffffff;
-  font-size: 80%;
+#cover-text-sign-up,
+cover-text-sign-up h4 {
+    color: #ffffff;
+    font-size: 80%;
 }
 
 #cover-text-sign-up {
-  font-size: 80%;
-  font-family: DM Mono;
-  text-align: left;
-  text-decoration: #777777;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-
-  width: 400px;
-  height: 210px;
-
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-
-  background-color: rgba(241, 109, 107, .7);
-
-  bottom: 250px;
-  left: 500px;
-
-  border-radius: 15px;
-
-  position: absolute;
+    font-size: 80%;
+    font-family: DM Mono;
+    text-align: left;
+    text-decoration: #777777;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 400px;
+    height: 210px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 250px;
+    left: 500px;
+    border-radius: 15px;
+    position: absolute;
 }
 
 .signup-form {
-  margin-top: 150px;
-  color: #fff;
-  background-color: rgba(60,60,60,0.6);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 30px;
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
 .signup-form h4 {
-  color: #fafafa;
-  margin-bottom: 20px;
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .text-input {
-  background-color: transparent;
-  color: #fafafa;
-  width: 100%;
-  height: 25px;
-  margin: 5px 0 20px 0;
-  border: solid 1px #fafafa;
-  border-radius: 2px;
+    background-color: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: solid 1px #fafafa;
+    border-radius: 2px;
 }
 
 .text-input:hover {
-  border-color: #f16c6b;
+    border-color: #f16c6b;
 }
 
 .join-button {
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px 15px 32px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #f16c6b;
-  color: #fafafa;
-  display: block;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
 }
 
 .join-button:hover {
-  background: #fafafa;
-  color: #f16c6b;
+    background: #fafafa;
+    color: #f16c6b;
 }
+
 
 /*end form */
 
 @media screen and (max-width: 1393px) {
-
-  #site-description{
-    width: 65%;
-    height: 1350px;
-    margin: 0 auto;
-  }
-
-  #welcome {
-    padding-top: 30px;
-    text-align: left;
-  }
-
-  #left-panel, #right-panel {
-    width: 100%;
-    float: left;
-  }
-
-  #left-panel-heading, #right-panel-heading {
-    margin: 0;
-    padding: 0;
-  }
-
-  #center-panel {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0 0 20px 0;
-  }
-
-  #diets div {
-    width: 100%;
-    clear: both;
-    height: 200px;
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-color: white;
-  }
-
+    #site-description {
+        width: 65%;
+        height: 1350px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding-top: 30px;
+        text-align: left;
+    }
+    #left-panel,
+    #right-panel {
+        width: 100%;
+        float: left;
+    }
+    #left-panel-heading,
+    #right-panel-heading {
+        margin: 0;
+        padding: 0;
+    }
+    #center-panel {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0 0 20px 0;
+    }
+    #diets div {
+        width: 100%;
+        clear: both;
+        height: 200px;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-color: white;
+    }
 }
 
 @media screen and (max-width: 943px) {
-  #navigation {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-  }
-
-  #cover-text {
-    left: 0px;
-  }
-
-  #cover-text-sign-up {
-    left: 10px;
-  }
-
-  #logo {
-    margin-left: 20px;
-  }
-
-  #welcome {
-    text-align: left;
-    width: 90%;
-    height: 200px;
-    margin: 0 auto;
-    padding-top: 50px;
-  }
-
-  #left-panel, #right-panel {
-    padding-top: 10px;
-  }
-
-  .left-panel-heading {
-    width: inherit;
-    margin-left: 0;
-  }
-
-  .right-panel-heading {
-    width: inherit;
-    margin-right: 0;
-  }
-  
-  .right-panel-heading h3, .left-panel-heading h3 {
-    width: 100%;
-    text-align: left;
-  }
-  
-  .right-panel-heading p, .left-panel-heading p {
-    width: 100%;
-    text-align: left;
-    padding: 0 10px 0 10px;
-  }
-
-  #photo {
-    column-count: 3;
-  }
+    #navigation {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #cover-text {
+        left: 0px;
+    }
+    #cover-text-sign-up {
+        left: 10px;
+    }
+    #logo {
+        margin-left: 20px;
+    }
+    #welcome {
+        text-align: left;
+        width: 90%;
+        height: 200px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    #left-panel,
+    #right-panel {
+        padding-top: 10px;
+    }
+    .left-panel-heading {
+        width: inherit;
+        margin-left: 0;
+    }
+    .right-panel-heading {
+        width: inherit;
+        margin-right: 0;
+    }
+    .right-panel-heading h3,
+    .left-panel-heading h3 {
+        width: 100%;
+        text-align: left;
+    }
+    .right-panel-heading p,
+    .left-panel-heading p {
+        width: 100%;
+        text-align: left;
+        padding: 0 10px 0 10px;
+    }
+    #photo {
+        column-count: 3;
+    }
 }
 
 @media screen and (max-width: 800px) {
-  #photo {
-    column-count: 2;
-  }
-
-  #cover-text {
-    left: 0px;
-  }
-
-  #cover-text-sign-up, cover-text-sign-up h4 {
-    color: #ffffff;
-    font-size: 80%;
-    width: 350px;
-    height: 210px;
-
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 0px;
-  }
+    #photo {
+        column-count: 2;
+    }
+    #cover-text {
+        left: 0px;
+    }
+    #cover-text-sign-up,
+    cover-text-sign-up h4 {
+        color: #ffffff;
+        font-size: 80%;
+        width: 350px;
+        height: 210px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
 }
