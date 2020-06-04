@@ -15,26 +15,37 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-light navbar-expand-sm" style="background-color: #e3f2fd;">
-            <div id="logo">
-                <a href="index.html" class="navbar-brand">Delicious Food</a>
+		<nav class="navbar navbar-light fixed-top navbar-expand-md" style="background-color: #e3f2fd;">
+      <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"></span>
+        <a class="navbar-brand" href="#">Delicious Food</a>
+        <div class="w-100 text-right">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
+        <ul class="nav navbar-nav ml-auto pr-4">
+          <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="navbar-brand mb-0 h2 d-sm-inline nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+          <li class="navbar-brand dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Diets
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Mediterranean</a>
+              <a class="dropdown-item" href="#">Atkins</a>
+              <a class="dropdown-item" href="#">Dukan</a>
+              <a class="dropdown-item" href="#">Detox</a>
+              <a class="dropdown-item" href="#">Buddhist</a>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto mt-2">
-                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
-                </ul>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2 d-none d-sm-inline d-md-inline" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 mr-sm-3 d-none d-sm-inline d-lg-inline" type="submit"><small>Search</small></button>
-                </form>
-            </div>
-        </nav>
-    </header>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
     <section id="photo">
         <img src="/assets/img/chocolate_cake.JPG">
         <img src="/assets/img/cookies_on_a_plate.JPG">

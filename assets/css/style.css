@@ -27,7 +27,8 @@ nav ul li a {
 
 #logo {
     opacity: 75%;
-    margin: 15px;
+    margin: 5px;
+    padding-top: 5px;
     font-size: 200%;
     float: left;
     letter-spacing: 1px;
