@@ -112,8 +112,9 @@ cover-text h2 {
 }
 
 #site-description {
-    height: 400px;
+    height: 600px;
     width: 100%;
+    padding: 15px;
 }
 
 #welcome {
@@ -124,19 +125,19 @@ cover-text h2 {
 }
 
 #left-panel {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     width: 30%;
     float: left;
 }
 
 #right-panel {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     width: 30%;
     float: right;
 }
 
 #center-panel {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     width: 40%;
     margin: 0 auto;
 }
@@ -152,7 +153,7 @@ hr {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .right-panel-heading {
@@ -160,29 +161,29 @@ hr {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .center-panel-square {
-    width: 100%;
+    width: 90%;
     height: 350px;
     margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 50px;
 }
 
 #square-cover-bg {
-    background: url("/assets/img/little_cakes.JPG") no-repeat center center;
+    background: url("/assets/img/little_cakes.JPG") no-repeat;
     height: 100%;
     width: 100%;
-    border-radius: 10%;
-    padding-bottom: 30px;
 }
 
-.favorite {
+#favorite {
     text-align: center;
-    padding-top: 50px;
+    padding: 30px;
 }
 
-#diets {
+#Cuisine {
     background-image: url("/assets/img/main_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,15 +191,15 @@ hr {
     overflow: hidden;
 }
 
-#diets_list h4 {
+#Cuisine_list h4 {
     text-align: left;
 }
 
-#diets_list ul {
+#Cuisine_list ul {
     text-align: left;
 }
 
-#diets div {
+#Cuisine div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 19%;
@@ -329,9 +330,10 @@ cover-text-sign-up h4 {
 
 @media screen and (max-width: 1393px) {
     #site-description {
-        width: 65%;
-        height: 1350px;
+        width: 75%;
+        height: 1050px;
         margin: 0 auto;
+        padding: 0px;
     }
     #welcome {
         padding-top: 30px;
@@ -353,7 +355,8 @@ cover-text-sign-up h4 {
         float: left;
         padding: 0 0 20px 0;
     }
-    #diets div {
+
+    #Cuisine div {
         width: 100%;
         clear: both;
         height: 200px;
@@ -364,6 +367,11 @@ cover-text-sign-up h4 {
 }
 
 @media screen and (max-width: 943px) {
+    #site-description {
+        width: 85%;
+        padding: 0px;
+        height: 550px;
+    }
     #navigation {
         clear: left;
         float: left;
@@ -382,14 +390,15 @@ cover-text-sign-up h4 {
     }
     #welcome {
         text-align: left;
-        width: 90%;
-        height: 200px;
+        font-size: 130%;
+        width: 100%;
         margin: 0 auto;
         padding-top: 50px;
     }
     #left-panel,
     #right-panel {
         padding-top: 10px;
+        font-size: 100%;
     }
     .left-panel-heading {
         width: inherit;
@@ -398,11 +407,13 @@ cover-text-sign-up h4 {
     .right-panel-heading {
         width: inherit;
         margin-right: 0;
+        font-size: 100%;
     }
     .right-panel-heading h3,
     .left-panel-heading h3 {
         width: 100%;
         text-align: left;
+        font-size: 100%;
     }
     .right-panel-heading p,
     .left-panel-heading p {
@@ -419,9 +430,18 @@ cover-text-sign-up h4 {
     #photo {
         column-count: 2;
     }
+
+    .static-top {
+      position:fixed;
+      top:0;
+      right:0;
+      left:0;
+    }
+
     #cover-text {
         left: 0px;
     }
+
     #cover-text-sign-up,
     cover-text-sign-up h4 {
         color: #ffffff;
@@ -431,5 +451,13 @@ cover-text-sign-up h4 {
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 0px;
+    }
+  
+    .center-panel-square {
+        display: none;
+    }
+
+    #favorite h3 {
+      font-size: 130%;
     }
 }
