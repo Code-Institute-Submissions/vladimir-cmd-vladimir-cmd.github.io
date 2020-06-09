@@ -7,7 +7,6 @@
 
 body {
     font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
-    /* color: lightblue; */
 }
 
 h2 {
@@ -183,31 +182,65 @@ hr {
     padding: 30px;
 }
 
-#Cuisine {
-    background-image: url("/assets/img/main_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    overflow: hidden;
+.container-fluid {
+    padding-bottom: 30px;
+    position: relative;
 }
 
-#Cuisine_list h4 {
-    text-align: left;
+.container-fluid .row {
+  width: 95%;
+  padding-left: 30px;
 }
 
-#Cuisine_list ul {
-    text-align: left;
+.container-fluid .row div {
+  padding-bottom: 10px;
 }
 
-#Cuisine div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 19%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: left;
-    margin: 4px;
+.container-fluid .row div ul {
+  padding-bottom: 10px;
+}
+
+.container-fluid .row div .btn {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+.newsletter {
+  padding: 80px 0;
+  background-color: #03fcd3;
+}
+
+.newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; 
+}
+
+.newsletter .content h2 {
+  color: #243c4f;
+  margin-bottom: 40px; 
+}
+
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius:0;
+}
+
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+  min-height: 50px; 
+  border-radius:0;
+  background: #243c4f;
+  color: #fff;
+  font-weight:400;
 }
 
 .social-networks {
@@ -356,13 +389,13 @@ cover-text-sign-up h4 {
         padding: 0 0 20px 0;
     }
 
-    #Cuisine div {
-        width: 100%;
-        clear: both;
-        height: 200px;
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-color: white;
+    .container-fluid {
+      padding-bottom: 30px;
+    }
+    .container-fluid .row div .btn {
+      position: absolute;
+      bottom: 0;
+      left: 13px;
     }
 }
 
@@ -424,9 +457,10 @@ cover-text-sign-up h4 {
     #photo {
         column-count: 3;
     }
+    
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     #photo {
         column-count: 2;
     }
@@ -439,7 +473,25 @@ cover-text-sign-up h4 {
     }
 
     #cover-text {
-        left: 0px;
+        left: 30px;
+        width: 260px;
+        height: 120px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+    }
+
+    #cover-text h2 {
+        font-size: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    #cover-text h3 {
+        font-size: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
     }
 
     #cover-text-sign-up,
@@ -459,5 +511,38 @@ cover-text-sign-up h4 {
 
     #favorite h3 {
       font-size: 130%;
+    }
+      .newsletter .content h2 {
+      color: #243c4f;
+      margin-bottom: 40px; 
+      font-size: 120%;
+    }
+
+    .newsletter .content .btn {
+      min-height: 50px; 
+      border-radius:0;
+      background: #243c4f;
+      color: #fff;
+      font-weight:400;
+    }
+
+    .container-fluid .row div .btn {
+      left: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+  .input-group-btn {
+    padding-top: 15px;
+  }
+  .newsletter .content .btn {
+    font-weight:400;
+  }
+  .container-fluid .row div {
+    padding-bottom: 15px;
+  }
+
+  .container-fluid .row div .btn {
+      left: 13px;
     }
 }
