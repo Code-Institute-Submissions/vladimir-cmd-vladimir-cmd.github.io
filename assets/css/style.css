@@ -188,59 +188,59 @@ hr {
 }
 
 .container-fluid .row {
-  width: 95%;
-  padding-left: 30px;
+    width: 95%;
+    padding-left: 30px;
 }
 
 .container-fluid .row div {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .container-fluid .row div ul {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .container-fluid .row div .btn {
-  position: absolute;
-  bottom: 0;
-  left: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
 }
 
 .newsletter {
-  padding: 80px 0;
-  background-color: #03fcd3;
+    padding: 80px 0;
+    background-color: #03fcd3;
 }
 
 .newsletter .content {
-  max-width: 650px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  z-index: 2; 
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .newsletter .content h2 {
-  color: #243c4f;
-  margin-bottom: 40px; 
+    color: #243c4f;
+    margin-bottom: 40px;
 }
 
 .newsletter .content .form-control {
-  height: 50px;
-  border-color: #ffffff;
-  border-radius:0;
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
 }
 
 .newsletter .content.form-control:focus {
-  box-shadow: none;
-  border: 2px solid #243c4f;
+    box-shadow: none;
+    border: 2px solid #243c4f;
 }
 
 .newsletter .content .btn {
-  min-height: 50px; 
-  border-radius:0;
-  background: #243c4f;
-  color: #fff;
-  font-weight:400;
+    min-height: 50px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 400;
 }
 
 .social-networks {
@@ -388,14 +388,13 @@ cover-text-sign-up h4 {
         float: left;
         padding: 0 0 20px 0;
     }
-
     .container-fluid {
-      padding-bottom: 30px;
+        padding-bottom: 30px;
     }
     .container-fluid .row div .btn {
-      position: absolute;
-      bottom: 0;
-      left: 13px;
+        position: absolute;
+        bottom: 0;
+        left: 13px;
     }
 }
 
@@ -457,21 +456,18 @@ cover-text-sign-up h4 {
     #photo {
         column-count: 3;
     }
-    
 }
 
 @media screen and (max-width: 768px) {
     #photo {
         column-count: 2;
     }
-
     .static-top {
-      position:fixed;
-      top:0;
-      right:0;
-      left:0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
     }
-
     #cover-text {
         left: 30px;
         width: 260px;
@@ -481,19 +477,16 @@ cover-text-sign-up h4 {
         padding-right: 10px;
         position: absolute;
     }
-
     #cover-text h2 {
         font-size: 100%;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
-
     #cover-text h3 {
         font-size: 100%;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
-
     #cover-text-sign-up,
     cover-text-sign-up h4 {
         color: #ffffff;
@@ -504,45 +497,40 @@ cover-text-sign-up h4 {
         padding-left: 10px;
         padding-right: 0px;
     }
-  
     .center-panel-square {
         display: none;
     }
-
     #favorite h3 {
-      font-size: 130%;
+        font-size: 130%;
     }
-      .newsletter .content h2 {
-      color: #243c4f;
-      margin-bottom: 40px; 
-      font-size: 120%;
+    .newsletter .content h2 {
+        color: #243c4f;
+        margin-bottom: 40px;
+        font-size: 120%;
     }
-
     .newsletter .content .btn {
-      min-height: 50px; 
-      border-radius:0;
-      background: #243c4f;
-      color: #fff;
-      font-weight:400;
+        min-height: 50px;
+        border-radius: 0;
+        background: #243c4f;
+        color: #fff;
+        font-weight: 400;
     }
-
     .container-fluid .row div .btn {
-      left: 13px;
+        left: 13px;
     }
 }
 
 @media screen and (max-width: 576px) {
-  .input-group-btn {
-    padding-top: 15px;
-  }
-  .newsletter .content .btn {
-    font-weight:400;
-  }
-  .container-fluid .row div {
-    padding-bottom: 15px;
-  }
-
-  .container-fluid .row div .btn {
-      left: 13px;
+    .input-group-btn {
+        padding-top: 15px;
+    }
+    .newsletter .content .btn {
+        font-weight: 400;
+    }
+    .container-fluid .row div {
+        padding-bottom: 15px;
+    }
+    .container-fluid .row div .btn {
+        left: 13px;
     }
 }
