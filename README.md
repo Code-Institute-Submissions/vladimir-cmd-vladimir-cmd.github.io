@@ -33,6 +33,7 @@ Reason why creating this website:
 * **Fixed Header**: Each page has a fixed header, for ease of navigation.
 * **Responsive Design**: Site pages are designed to work on all sizes of device.
 * **Read More**: Front page contains Read More button for each Cusine for ease of navigation.
+* **Gallery**: A page full of photos of tasty food, can bebrowsed and downloaded.
  
 ### Specific Features:
 * **Subscribe to Newsletter**: This site includes subscribe to newsletter section where visitor can subscribe for the latest recepies
