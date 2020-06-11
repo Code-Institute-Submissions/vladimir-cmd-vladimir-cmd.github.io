@@ -259,16 +259,19 @@ hr {
 }
 
 #photo {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0px;
 }
 
 #photo img {
     width: 100%;
 }
 
+.container-fluid {
+  padding-top: 80px;
+}
 
 /* form */
 
@@ -396,6 +399,14 @@ cover-text-sign-up h4 {
         bottom: 0;
         left: 13px;
     }
+    .container-fluid .card-columns {
+        column-count: 2;
+    }
+
+    /* #photo .row .column {
+      flex: 100%;
+      max-width: 95%;
+    } */
 }
 
 @media screen and (max-width: 943px) {
@@ -459,9 +470,14 @@ cover-text-sign-up h4 {
 }
 
 @media screen and (max-width: 768px) {
-    #photo {
+    .container-fluid .card-columns {
         column-count: 2;
     }
+
+   /* #photo .row .column {
+    flex: 100%;
+    max-width: 95%;
+  } */
     .static-top {
         position: fixed;
         top: 0;
@@ -533,4 +549,16 @@ cover-text-sign-up h4 {
     .container-fluid .row div .btn {
         left: 13px;
     }
+    .container-fluid .card-columns {
+        column-count: 1;
+    }
+
+   /* #photo .row .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+   #photo .row .column img{
+    padding-left: 0px;
+  } */
+
 }
