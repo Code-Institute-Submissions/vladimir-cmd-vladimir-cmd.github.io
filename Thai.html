@@ -2,66 +2,224 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Delicious Food</title>
-    <script src="https://kit.fontawesome.com/9cebba0a83.js" crossorigin="anonymous">
-    </script>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Delicious Food</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<script src="https://kit.fontawesome.com/9cebba0a83.js" crossorigin="anonymous">
+
+	</script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	 crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+	 crossorigin="anonymous">
+
+	</script>
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-light navbar-expand-sm" style="background-color: #e3f2fd;">
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block"></span>
-            <a class="navbar-brand" href="#">Delicious Food</a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	<header>
+		<nav class="navbar fixed-top navbar-light navbar-expand-sm" style="background-color: #e3f2fd;">
+			<div class="d-flex flex-grow-1">
+				<span class="w-100 d-lg-none d-block"></span>
+                <a class="navbar-brand" href="#">Delicious Food</a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+                </div>
             </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
-            <ul class="nav navbar-nav ml-auto pr-4">
-                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item active"><a class="nav-link" href="signup.html">Sign Up</a></li>
-                <li class="navbar-brand dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Cuisine
-            </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Italian</a>
-                        <a class="dropdown-item" href="#">Chinese</a>
-                        <a class="dropdown-item" href="#">Mexican</a>
-                        <a class="dropdown-item" href="#">Serbian</a>
-                        <a class="dropdown-item" href="#">Turkish</a>
-                        <a class="dropdown-item" href="#">Thai</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="contact_me.html">Contact</a></li>
+                    <li class="navbar-brand dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cuisine</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="Italian.html">Italian</a>
+                            <a class="dropdown-item" href="Chinese.html">Chinese</a>
+                            <a class="dropdown-item" href="Mexican.html">Mexican</a>
+                            <a class="dropdown-item" href="Serbian.html">Serbian</a>
+                            <a class="dropdown-item" href="Turkish.html">Turkish</a>
+                            <a class="dropdown-item" href="Thai.html">Thai</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <section id="form-section-outer">
-        <div id="form-section">
-            <div id="cover-text-sign-up">
-                <form action="http://vladsitblog.com/" method="post">
-                    <h4 class="text-uppercase">Let's get you signed up!</h4>
-                    <label for="fname">First Name&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text" id="fname" name="first_name" regiured><br>
-                    <label for="lname">Last Name&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text" id="lname" name="last_name" required><br>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email_address" required><br>
-                    <button class="btn btn-success btn-sm">Sign Up!</button>
-                </form>
-            </div>
-        </div>
+    
+    <section id="cuisine-main-image-section">
+      <div id="thai-cuisine-main-img"></div>
     </section>
+
+    <div class="cuisine-description-container">
+      <div class="container-fluid">
+        <h2 id="title-cuisine">Thai Cuisine</h2>
+        <hr>
+        <p>
+          Thai cooking places emphasis on lightly prepared dishes with strong aromatic components and a spicy edge. Thai chef McDang characterises Thai food as demonstrating "intricacy; attention to detail; texture; color; taste; and the use of ingredients with medicinal benefits, as well as good flavor", as well as care being given to the food's appearance, smell and context.
+        </p>
+        <hr>
+        <p>
+          Australian chef David Thompson, an expert on Thai food, observes that unlike many other cuisines,[2] Thai cooking is "about the juggling of disparate elements to create a harmonious finish. Like a complex musical chord it's got to have a smooth surface but it doesn't matter what's happening underneath. Simplicity isn't the dictum here, at all."
+        </p>
+        <hr>
+        <p>
+          According to the Thai monk Venerable Buddhadasa Bhikku's writing, ‘India's Benevolence to Thailand’, Thai cuisine was influenced by Indian cuisine.  Traditional Thai cuisine loosely falls into four categories: tom (boiled dishes), yam (spicy salads), tam (pounded foods), and gaeng (curries). Deep-fries, stir-fries, and steamed dishes derive from Chinese cooking.
+        </p>
+        <hr>
+        <p>
+          In 2017, seven Thai dishes appeared on a list of the "World's 50 Best Foods"— an online poll of 35,000 people worldwide by CNN Travel. Thailand had more dishes on the list than any other country. They were: tom yam goong (4th), pad Thai (5th), som tam (6th), massaman curry (10th), green curry (19th), Thai fried rice (24th) and mu nam tok (36th).
+        </p>
+        <hr>
+        <p>
+          Thai cuisine and the culinary traditions and cuisines of Thailand's neighbors have mutually influenced one another over the course of many centuries.
+        </p>
+        <hr>
+      </div>
+    </div>
+
+    
+    <h2 id="title-cuisine">Recipes</h2>
+    <hr>
+    <div class="recipe-container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h2 id="title-recipes">Easy pad Thai</h2>
+            <div class="ingredients">
+              <h4 id="title-ingredients">Ingredients</h4>
+              <p>
+                125g (half a 250g pack) rice noodles<br>
+                3 tbsp lime juice about 2 limes<br>
+                ½ tsp cayenne pepper<br>
+                2 tsp light muscovado sugar<br>
+                2 tbsp fish sauce (nam pla)<br>
+                2 tbsp vegetable oil<br>
+                200g cooked and peeled tiger prawn, tails left on<br>
+                4 spring onions, sliced<br>
+                140g beansprout<br>
+                25g salted peanut, finely chopped<br>
+                a small handful of coriander leaves<br>
+              </p>
+            </div>
+            <div class="method">
+              <h4 id="title-ingredients">Method</h4>
+              <p>
+                1. Put the noodles in a large heatproof bowl, pour boiling water over them and leave for 4 minutes, then drain and refresh under cold running water.
+                <br>
+                2. Put the lime juice, cayenne, sugar and fish sauce in a bowl and mix well. Have all the other ingredients ready by the cooker.
+                <br>
+                3. Heat the oil and fry the prawns until warmed through. Add the spring onions and noodles and toss around. Tip in the lime juice mixture, then stir in the beansprouts and half the peanuts and coriander. Cook for 1 minute until everything is heated through.
+                <br>
+                4. Pile into a large dish, scatter with the rest of the peanuts and coriander, and serve with lime wedges and sweet chilli sauce.
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-sm-12 col-md-6">
+            <h2 id="title-recipes">Thai green chicken curry</h2>
+            <div class="ingredients">
+              <h4 id="title-ingredients">Ingredients</h4>
+              <p>
+                1 stalk lemongrass, thinly sliced<br>
+                1 tbsp lime juice<br>
+                1 tsp whole peppercorn<br>
+                1 tsp coriander seed<br>
+                ½ tsp cumin seed<br>
+                6 green bird's-eye chillies, trimmed and halved<br>
+                4 garlic cloves, peeled<br>
+                5 shallots (use Thai if possible)<br>
+                3cm piece galangal or ginger, peeled and sliced<br>
+                1 rounded tsp shredded kaffir lime peel (if you can get it)<br>
+                2 tbsp chopped coriander stalks<br>
+                1 tbsp chopped coriander leaves<br>
+                1 level tsp shrimp paste<br>
+                2 tbsp vegetable or sunflower oil<br>
+              </p>
+            </div>
+            <div class="method">
+              <h4 id="title-ingredients">Method</h4>
+              <p>
+              1. To make the Thai green curry paste, put the lemon grass and lime juice into a small bowl and leave to soak for 30 mins. Put a small pan over a medium heat and add the peppercorns, coriander and cumin seeds. Dry fry for about 1 minute until fragrant then tip onto a saucer to cool.
+              <br>
+              2. Put the lemongrass, spices and all remaining curry paste ingredients into a mini food blender or small food processor and pulse the mixture. Scrape down the sides from time to time. Process as smooth as you can – the mixture will be slightly coarse and not as green as the purchased variety. Put the paste into a lidded jar and store in the fridge up to a week or freeze in portions.
+              <br>
+              3. To make the curry, open the cans of coconut milk and carefully remove the thick cream and spoon it into a warm wok or large frying pan (see tip below). Cook it slowly, stirring all the time, until it reduces to a thick paste and the oil starts to separate. Add the green curry paste and cook for 1-2 mins. Add the chicken and stir until well coated in the paste.
+              <br>
+              4. Slowly add the coconut water remaining in the cans together with the chicken stock. Add all the remaining ingredients and cook over a medium heat for about 10 mins until the chicken is cooked. Add more stock if necessary - the sauce should be slightly thinner than single cream.
+              <br>
+              5. To serve spoon some rice into a bowl, pour over the curry and sprinkle with the coriander leaves, sliced chilli and spring onion. Add a wedge of lime on the side.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="w-100"></div> -->
+          <div class="col-sm-12 col-md-6">
+            <h2 id="title-recipes">Thai chicken and sweet potato soup</h2>
+            <div class="ingredients">
+              <h4 id="title-ingredients">Ingredients</h4>
+              <p>
+                1 tsp olive or rapeseed oil<br>
+                2 garlic cloves, chopped<br>
+                1 red chilli, deseeded and chopped<br>
+                2cm chunk root ginger, chopped<br>
+                1 stalk lemongrass, bashed<br>
+                1 x 25g pack coriander, leaves and stalks chopped separately<br>
+                2 tbsp red Thai curry paste<br>
+                750ml chicken stock (made with 2 stock cubes)<br>
+                1 small can (160ml) coconut cream<br>
+                500g sweet potato, peeled and roughly chopped<br>
+                2 skinless chicken breasts, sliced<br>
+                1 lime, juice only<br>
+                1 tsp sugar<br>
+                ½ tsp fish sauce<br>
+                crusty bread, to serve (optional)<br>
+              </p>
+            </div>
+            <div class="method">
+              <h4 id="title-ingredients">Method</h4>
+              <p>
+              1. Heat the oil in a large saucepan. Add the garlic, chilli, ginger, lemongrass, coriander stalks and curry paste and cook for 2 - 3 minutes until the aromas are released.
+              <br>
+              2. Add the chicken stock, coconut cream and sweet potatoes and cook for 15 minutes or until the potatoes are soft. Remove the lemongrass and discard. Carefully transfer to a blender and blitz until smooth. If freezing, for best results freeze at this point, otherwise as an easier option freeze complete recipe.
+              <br>
+              3. Return to the saucepan, add the chicken and cook gently for 5 - 10 minutes or until the chicken is cooked through. Stir through the lime juice, sugar and fish sauce, scatter with the coriander leaves and serve.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <h2 id="title-recipes">Tom yum (hot & sour) soup with prawns</h2>
+            <div class="ingredients">
+              <h4 id="title-ingredients">Ingredients</h4>
+              <p>
+                700ml chicken stock<br>
+                1 lemongrass stalk, bruised and cut into large pieces<br>
+                5 thick slices galangal<br>
+                3 coriander roots or 6 stems, bruised, plus leaves to garnish<br>
+                3 lime leaves, torn<br>
+                6 large prawns, shelled<br>
+                3 tbsp Thai fish sauce<br>
+                6 small green chillies, chopped<br>
+                4 tbsp lime juice<br>
+              </p>
+            </div>
+            <div class="method">
+              <h4 id="title-ingredients">Method</h4>
+              <p>
+                1. Bring the stock to a boil in a medium-sized saucepan. Add the lemongrass, galangal, coriander roots and lime leaves, then simmer for 2 mins.
+                <br>
+                2. Add the prawns, fish sauce, chillies and lime juice, then return to the boil. Taste and adjust the seasoning with either more lime juice or fish sauce, then garnish with coriander leaves and serve.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <section class="newsletter">
         <div class="container">
             <div class="row">
@@ -87,6 +245,7 @@
             <li><a href="https://www.reddit.com" target="_blank"><i class="fab fa-reddit-square"></i></a></li>
         </ul>
     </footer>
+
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

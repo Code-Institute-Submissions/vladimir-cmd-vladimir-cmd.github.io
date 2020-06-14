@@ -2,66 +2,221 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Delicious Food</title>
-    <script src="https://kit.fontawesome.com/9cebba0a83.js" crossorigin="anonymous">
-    </script>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Delicious Food</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<script src="https://kit.fontawesome.com/9cebba0a83.js" crossorigin="anonymous">
+
+	</script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	 crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+	 crossorigin="anonymous">
+
+	</script>
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-light navbar-expand-sm" style="background-color: #e3f2fd;">
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block"></span>
-            <a class="navbar-brand" href="#">Delicious Food</a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	<header>
+		<nav class="navbar fixed-top navbar-light navbar-expand-sm" style="background-color: #e3f2fd;">
+			<div class="d-flex flex-grow-1">
+				<span class="w-100 d-lg-none d-block"></span>
+                <a class="navbar-brand" href="#">Delicious Food</a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+                </div>
             </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
-            <ul class="nav navbar-nav ml-auto pr-4">
-                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item active"><a class="nav-link" href="signup.html">Sign Up</a></li>
-                <li class="navbar-brand dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Cuisine
-            </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Italian</a>
-                        <a class="dropdown-item" href="#">Chinese</a>
-                        <a class="dropdown-item" href="#">Mexican</a>
-                        <a class="dropdown-item" href="#">Serbian</a>
-                        <a class="dropdown-item" href="#">Turkish</a>
-                        <a class="dropdown-item" href="#">Thai</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="contact_me.html">Contact</a></li>
+                    <li class="navbar-brand dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cuisine</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="Italian.html">Italian</a>
+                            <a class="dropdown-item" href="Chinese.html">Chinese</a>
+                            <a class="dropdown-item" href="Mexican.html">Mexican</a>
+                            <a class="dropdown-item" href="Serbian.html">Serbian</a>
+                            <a class="dropdown-item" href="Turkish.html">Turkish</a>
+                            <a class="dropdown-item" href="Thai.html">Thai</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <section id="form-section-outer">
-        <div id="form-section">
-            <div id="cover-text-sign-up">
-                <form action="http://vladsitblog.com/" method="post">
-                    <h4 class="text-uppercase">Let's get you signed up!</h4>
-                    <label for="fname">First Name&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text" id="fname" name="first_name" regiured><br>
-                    <label for="lname">Last Name&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text" id="lname" name="last_name" required><br>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email_address" required><br>
-                    <button class="btn btn-success btn-sm">Sign Up!</button>
-                </form>
-            </div>
-        </div>
+    
+    <section id="cuisine-main-image-section">
+      <div id="mexican-cuisine-main-img"></div>
     </section>
+
+    <div class="cuisine-description-container">
+      <div class="container-fluid">
+        <h2 id="title-cuisine">Mexican Cuisine</h2>
+        <hr>
+        <p>
+          Mexican cuisine began about 9,000 years ago, when agricultural communities such as the Maya formed, domesticating maize, creating the standard process of maize nixtamalization, and establishing their foodways. Successive waves of other Mesoamerican groups brought with them their own cooking methods. These included the Olmec, Teotihuacanos, Toltec, Huastec, Zapotec, Mixtec, Otomi, Purépecha, Totonac, Mazatec, and Mazahua.
+        </p>
+        <hr>
+        <p>
+          The Mexica establishment of the Aztec Empire created a multi-ethnic society where many different foodways became infused. The staples are native foods, such as corn (maize), beans, squash, amaranth, chia, avocados, tomatoes, tomatillos, cacao, vanilla, agave, turkey, spirulina, sweet potato, cactus, and chili pepper.
+        </p>
+        <hr>
+        <p>
+          After the Spanish conquest of the Aztec Empire in the 16th century and the subsequent conquest of the Maya area, Europeans introduced a number of other foods, the most important of which were meats from domesticated animals (beef, pork, chicken, goat, and sheep), dairy products (especially cheese and milk), and rice. While the Spanish initially tried to impose their own diet on the country, this was not possible.
+        </p>
+        <hr>
+        <p>
+          Asian and African influences were also introduced into the indigenous cuisine during this era as a result of African slavery in New Spain and the Manila-Acapulco Galleons.
+        </p>
+        <hr>
+        <p>
+          Over the centuries, this resulted in regional cuisines based on local conditions, such as those in Oaxaca, Veracruz and the Yucatán Peninsula. Mexican cuisine is an important aspect of the culture, social structure and popular traditions of Mexico. The most important example of this connection is the use of mole for special occasions and holidays, particularly in the South and Central regions of the country. For this reason and others, traditional Mexican cuisine was inscribed in 2010 on the Representative List of the Intangible Cultural Heritage of Humanity by UNESCO.
+        </p>
+        <hr>
+      </div>
+    </div>
+    
+    <h2 id="title-cuisine">Recipes</h2>
+    <hr>
+    <div class="recipe-container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h2 id="title-recipes">Huevos rancheros</h2>
+            <div class="ingredients">
+              <h4 id="title-ingredients">Ingredients</h4>
+              <p>
+                2 tbsp olive oil<br>
+                1 small onion, diced<br>
+                2 garlic cloves, crushed<br>
+                400g can red kidney beans, drained and rinsed<br>
+                1 tsp ground cumin<br>
+                ¼ tsp chilli powder<br>
+                ½ tsp dried oregano<br>
+                4 eggs<br>
+                4 small flour tortillas, warmed<br>
+                1 large tomato, diced<br>
+                handful pickled jalapeño peppers, roughly chopped<br>
+                30g cheddar, grated<br>
+                1 avocado, peeled, de-stoned and diced<br>
+                1 lime, half juiced, half cut into wedges, to serve<br>
+                chopped coriander, to serve<br>
+              </p>
+            </div>
+            <div class="method">
+              <h4 id="title-ingredients">Method</h4>
+              <p>
+                1. Heat 1 tbsp oil in a large pan. Add the onions with a pinch of salt, and cook until translucent, around 3-4 mins. Add the garlic and cook for a minute more.
+                <br>
+                2. Stir in the beans, cumin, chilli powder, oregano, some seasoning and 100ml water. Cook for 5-7 mins, stirring occasionally, or until the beans have softened, then remove from the heat, mash and set aside.
+                <br>
+                3. Heat the remaining oil in a large frying pan over a medium-high heat. Crack in the eggs, then reduce the heat to low and cook slowly until the whites are completely firm.
+                <br>
+                4. To assemble, spread the beans onto the tortillas, add the tomatoes and jalapeños and sprinkle with cheese. Top with some avocado, a squeeze of lime juice and a fried egg, then scatter with coriander. Serve with the lime wedges on the side.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h2 id="title-recipes">Chicken & bean enchiladas</h2>
+            <div class="ingredients">
+              <h4 id="title-ingredients">Ingredients</h4>
+              <p>
+                1 tbsp rapeseed oil<br>
+                2 red onion, sliced<br>
+                2 red peppers, deseeded and sliced<br>
+                2 garlic cloves, crushed<br>
+                2 tsp chipotle paste (add extra if you prefer more heat)<br>
+                2 skinless chicken breasts, cut into thin strips<br>
+                400g can black beans or kidney beans<br>
+                small bunch coriander, chopped<br>
+                500ml passata<br>
+                1 tsp ketchup or sugar<br>
+                6 medium tortillas<br>
+                50g mature cheddar, grated<br>
+                green salad, to serve<br>
+              </p>
+            </div>
+            <div class="method">
+              <h4 id="title-ingredients">Method</h4>
+              <p>
+                1. Heat oven to 200C/180C fan/gas 6. Heat the oil in a large frying pan and add the onions, peppers and half the garlic. Cook for 15 mins, stirring now and then until the veg has softened. Stir in the chipotle paste, then fry for 1 min more. Add the chicken strips, turning them over in the mixture so they cook through, about 5-10 mins.
+                <br>
+                2. Stir in the beans, coriander and 150ml of the passata, then take the pan off the heat. Mix the rest of the passata with the remaining crushed garlic and the ketchup.
+                <br>
+                3. Divide the mixture between the tortillas, then fold the sides in and roll them up. Pour half the passata sauce into a 22cm square baking dish, then place the enchiladas on top, side by side. Dot over the remaining sauce and sprinkle over the grated cheese, then bake for 25-30 mins until golden brown.
+              </p>
+            </div>
+          </div>
+      
+          <!-- <div class="w-100"></div> -->
+          <div class="col-sm-12 col-md-6">
+            <h2 id="title-recipes">Mexican penne with avocado</h2>
+            <div class="ingredients">
+              <h4 id="title-ingredients">Ingredients</h4>
+              <p>
+                100g wholemeal penne<br>
+                1 tsp rapeseed oil<br>
+                1 large onion, sliced, plus 1 tbsp finely chopped<br>
+                1 orange pepper, deseeded and cut into chunks<br>
+                2 garlic cloves, grated<br>
+                2 tsp mild chilli powder<br>
+                1 tsp ground coriander<br>
+                ½ tsp cumin seeds<br>
+                400g can chopped tomatoes<br>
+                196g can sweetcorn in water<br>
+                1 tsp vegetable bouillon powder<br>
+                1 avocado, stoned and chopped<br>
+                ½ lime, zest and juice<br>
+                handful coriander, chopped, plus extra to serve<br>
+              </p>
+            </div>
+            <div class="method">
+              <h4 id="title-ingredients">Method</h4>
+              <p>
+                1. Cook the pasta in salted water for 10-12 mins until al dente. Meanwhile, heat the oil in a medium pan. Add the sliced onion and pepper and fry, stirring frequently for 10 mins until golden. Stir in the garlic and spices, then tip in the tomatoes, half a can of water, the corn and bouillon. Cover and simmer for 15 mins.
+                <br>
+                2. Meanwhile, toss the avocado with the lime juice and zest, and the finely chopped onion.
+                <br>
+                3. Drain the penne and toss into the sauce with the coriander. Spoon the pasta into bowls, top with the avocado and scatter over the coriander leaves.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h2 id="title-recipes">Mexican fiesta rice</h2>
+            <div class="ingredients">
+              <h4 id="title-ingredients">Ingredients</h4>
+              <p>
+                2 tbsp olive oil<br>
+                1 onion, finely chopped<br>
+                2 peppers (choose your favourite colours), finely chopped<br>
+                4 garlic cloves, very finely chopped or crushed<br>
+                1 tsp cumin seeds or ½ tsp ground cumin<br>
+                1 tbsp tomato purée<br>
+                small pinch of sweet smoked paprika<br>
+                250g basmati rice<br>
+                450ml hot vegetable stock (make sure it’s vegan-friendly)<br>
+                finely chopped coriander and sliced spring onions, to serve<br>
+              </p>
+            </div>
+            <div class="method">
+              <h4 id="title-ingredients">Method</h4>
+              <p>
+                1. Heat the oil in a large saucepan with a lid, then add the onion, pepper, garlic and cumin and sizzle gently for 8-10 mins until the vegetables are soft and golden. Stir in the tomato purée and smoked paprika and cook for 1 min, then stir in the rice.
+                <br>
+                2. Pour over the stock, then cover and bring to the boil. Stir quickly, then cover again and place on the lowest heat possible. Simmer for 10 mins. Turn off the heat and leave, covered, for a further 10 mins. If serving straightaway, stir through the coriander and spring onions; alternatively, leave the rice to cool, chill, then re-fry before serving and stir the coriander and spring onions through at the end.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <section class="newsletter">
         <div class="container">
             <div class="row">
@@ -87,6 +242,7 @@
             <li><a href="https://www.reddit.com" target="_blank"><i class="fab fa-reddit-square"></i></a></li>
         </ul>
     </footer>
+
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
