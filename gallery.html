@@ -1,145 +1,147 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Delicious Food - Gallery Page</title>
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-        <script src="https://kit.fontawesome.com/9cebba0a83.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Delicious Food - Gallery Page</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/9cebba0a83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
 
-    <body>
-        <!--  -->
-        <nav class="navbar fixed-top navbar-light navbar-expand-sm" style="background-color: #e3f2fd;">
-            <div class="d-flex flex-grow-1">
-                <span class="w-100 d-lg-none d-block"></span>
-                <a class="navbar-brand" href="index.html">Delicious Food</a>
-                <div class="w-100 text-right">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <!-- Header Section -->
+    <nav class="navbar fixed-top navbar-light navbar-expand-sm" style="background-color: #e3f2fd;">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"></span>
+            <a class="navbar-brand" href="index.html">Delicious Food</a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
+            <ul class="nav navbar-nav ml-auto pr-4">
+                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="contact_me.html">Contact</a></li>
+                <li class="navbar-brand dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cuisine</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Italian.html">Italian</a>
+                        <a class="dropdown-item" href="Chinese.html">Chinese</a>
+                        <a class="dropdown-item" href="Mexican.html">Mexican</a>
+                        <a class="dropdown-item" href="Serbian.html">Serbian</a>
+                        <a class="dropdown-item" href="Turkish.html">Turkish</a>
+                        <a class="dropdown-item" href="Thai.html">Thai</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Image Container Section -->
+    <div class="container-fluid">
+        <div class="card-columns">
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/round_cookies.JPG" alt="" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">Peanut butter Nuttela Cookies</h4>
+                    <p class="card-text">Ingredients: Cookie dough, peanuts, nutella, chocolate chips</p>
                 </div>
             </div>
-            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
-                <ul class="nav navbar-nav ml-auto pr-4">
-                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="navbar-brand mb-0 h2 d-sm-inline nav-item"><a class="nav-link" href="contact_me.html">Contact</a></li>
-                    <li class="navbar-brand dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cuisine</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="Italian.html">Italian</a>
-                            <a class="dropdown-item" href="Chinese.html">Chinese</a>
-                            <a class="dropdown-item" href="Mexican.html">Mexican</a>
-                            <a class="dropdown-item" href="Serbian.html">Serbian</a>
-                            <a class="dropdown-item" href="Turkish.html">Turkish</a>
-                            <a class="dropdown-item" href="Thai.html">Thai</a>
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/pizza-before.jpg" alt="Pizza ready for oven" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">Pizza Ready for Oven</h4>
+                    <p class="card-text">Ingredients: pomodoro, ham, cheese, mushrooms, sun-dried tomatos, artichokes</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/pizza-side-after.jpg" alt="Pizza after oven" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">Delicious Pizza</h4>
+                    <p class="card-text">Delicious pizza right after it is done. Beautiful crust filled with cheese!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/little_cakes.JPG" alt="" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">Small Coconut Cakes</h4>
+                    <p class="card-text">Ingredients: Cocounut flakes, Chocolate, Cookie dough, Vanilla filling</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/chocolate_cake.JPG" alt="" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">Chocolate Cake</h4>
+                    <p class="card-text">Ingredients: Cookie dough, chocolate, walnuts, melted chocolate</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/turkish_sarma.JPG" alt="" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">Turkish sarma</h4>
+                    <p class="card-text">Ingredients: Cabage leaves, minced pork meat, rice, bacon</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/cookies_on_a_plate.JPG" alt="" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">Delicious cookies</h4>
+                    <p class="card-text">Jaffa cakes, no-bake Wafers, Walnut cake, Three layer deliciousnes, Bounty</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/homemade_bread.JPG" alt="" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">Oven Baked Bread</h4>
+                    <p class="card-text">Ingredients: Dough, yeast, flour, salt</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/pizza-after.jpg" alt="" style="width:100%;" />
+                <div class="card-block">
+                    <h4 class="card-title">The best Pizza</h4>
+                    <p class="card-text">Ingredients: pomodoro, ham, cheese, pepperoni salami, mushrooms, olives</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <span class="input-group-btn col-sm-3 col-md-3">
+                                    <button class="btn" type="submit">Subscribe</button>
+                                </span>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container-fluid">      
-            <div class="card-columns">
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/round_cookies.JPG" alt="" style="width:100%;"/>
-                    <div class="card-block">
-                        <h4 class="card-title">Peanut butter Nuttela Cookies</h4>
-                        <p class="card-text">Ingredients: Cookie dough, peanuts, nutella, chocolate chips</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/pizza-before.jpg" alt="Pizza ready for oven" style="width:100%;"/>
-                    <div class="card-block">
-                        <h4 class="card-title">Pizza Ready for Oven</h4>
-                        <p class="card-text">Ingredients: pomodoro, ham, cheese, mushrooms, sun-dried tomatos, artichokes</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/pizza-side-after.jpg" alt="Pizza after oven" style="width:100%;"/>
-                    <div class="card-block">
-                        <h4 class="card-title">Delicious Pizza</h4>
-                        <p class="card-text">Delicious pizza right after it is done. Beautiful crust filled with cheese!</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/little_cakes.JPG" alt="" style="width:100%;"/>
-                    <div class="card-block">
-                        <h4 class="card-title">Small Coconut Cakes</h4>
-                        <p class="card-text">Ingredients: Cocounut flakes, Chocolate, Cookie dough, Vanilla filling</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/chocolate_cake.JPG" alt="" style="width:100%;"/>
-                    <div class="card-block">
-                        <h4 class="card-title">Chocolate Cake</h4>
-                        <p class="card-text">Ingredients: Cookie dough, chocolate, walnuts, melted chocolate</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/turkish_sarma.JPG" alt="" style="width:100%;"/>
-                    <div class="card-block">
-                        <h4 class="card-title">Turkish sarma</h4>
-                        <p class="card-text">Ingredients: Cabage leaves, minced pork meat, rice, bacon</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/cookies_on_a_plate.JPG" alt="" style="width:100%;"/>
-                    <div class="card-block">
-                        <h4 class="card-title">Delicious cookies</h4>
-                        <p class="card-text">Jaffa cakes, no-bake Wafers, Walnut cake, Three layer deliciousnes, Bounty</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/homemade_bread.JPG" alt="" style="width:100%;"/>
-                    <div class="card-block">
-                        <h4 class="card-title">Oven Baked Bread</h4>
-                        <p class="card-text">Ingredients: Dough, yeast, flour, salt</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="/assets/img/pizza-after.jpg" alt="" style="width:100%;"/>      
-                    <div class="card-block">
-                        <h4 class="card-title">The best Pizza</h4>
-                        <p class="card-text">Ingredients: pomodoro, ham, cheese, pepperoni salami, mushrooms, olives</p>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://www.reddit.com" target="_blank"><i class="fab fa-reddit-square"></i></a></li>
+        </ul>
+    </footer>
 
-        <section class="newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="content">
-                            <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
-                            <div class="input-group">
-                                <input type="email" class="form-control" placeholder="Enter your email">
-                                <span class="input-group-btn col-sm-3 col-md-3">
-                                    <button class="btn" type="submit">Subscribe</button>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <ul class="social-networks">
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
-                <li><a href="https://www.reddit.com" target="_blank"><i class="fab fa-reddit-square"></i></a></li>
-            </ul>
-        </footer>
-
-        <script src="script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 
 </html>
