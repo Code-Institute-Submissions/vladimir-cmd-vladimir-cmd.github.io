@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&family=Source+Sans+Pro:ital@1&display=swap');
+/* WHOLE SITE SETTINGS */
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +27,8 @@ h3 {
     font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 }
+
+/* HEADER SECTION */
 
 nav ul li a {
     font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
@@ -62,6 +65,8 @@ nav ul li a {
     color: inherit;
 }
 
+/* HERO IMAGE SECTION */
+
 #main_img {
     height: 600px;
     width: 100%;
@@ -93,6 +98,8 @@ nav ul li a {
     }
 }
 
+/* COVER TEXT SECTION */
+
 #cover-text,
 cover-text h2 {
     color: #ffffff;
@@ -116,6 +123,8 @@ cover-text h2 {
     border-radius: 15px;
     position: absolute;
 }
+
+/* MIDDLE PANEL SITE DESCRIPTION SECTION */
 
 #site-description {
     height: 500px;
@@ -189,6 +198,8 @@ hr {
     border-width: 5px;
 }
 
+/* TABLE FAVORITES SECTION */
+
 #favorite {
     display: flex;
     align-items: center;
@@ -211,6 +222,8 @@ hr {
     width: 30%;
     margin: 0 auto;
 }
+
+/* MAIN PAGE CUISINE SECTION */
 
 #cuisines-title {
   text-align: center;
@@ -255,6 +268,8 @@ hr {
     left: 15px;
 }
 
+/* NEWSLETTER SECTION */
+
 .newsletter {
     padding: 80px 0;
     background-color: #03fcd3;
@@ -292,6 +307,8 @@ hr {
     font-weight: 400;
 }
 
+/* SOCIAL NETWORKS SECTION */
+
 .social-networks {
     text-align: center;
 }
@@ -322,8 +339,7 @@ hr {
   padding-top: 80px;
 }
 
-/* form */
-
+/* FORM SECTION */
 
 #main_img_outer_contact_me {    
     height: 1000px;
@@ -365,7 +381,6 @@ hr {
     margin-bottom: 40px;
     font-size: 1.5em;
     font-weight: bold;
-    /* font-family: var(--fontBowlby); */
     background-color: white;
     color: Blue;
     border-radius: 25px;
@@ -383,7 +398,6 @@ hr {
 
 .form-label label {
     font-weight: bold;
-    /* font-family: var(--fontPoppins); */
 }
 
 .form-input input,
@@ -431,9 +445,7 @@ hr {
     justify-items: center;
 }
 
-/*end form */
-
-/* Gallery */
+/* GALLERY SECTION */
 
 .container-fluid .card-group .card .card-block .card-title {
   padding-left: 10px;
@@ -458,7 +470,7 @@ img {
     box-shadow: gray;
 }
 
-/* CUISINES */
+/* CUISINE SECTION */
 
 /* Cuisine Main Image Section */
 
@@ -516,7 +528,7 @@ img {
   margin-top: -50px;
 }
 
-/* Recipes Section */
+/* Cuisine Recipes Section */
 
 .title-cuisine {
     text-align: center;
@@ -524,8 +536,6 @@ img {
     font-size: 180%;
     margin-bottom: 20px;
 }
-
-/* Left and Right panel Cuisine */
 
 .ingredients {
   width: 90%;
@@ -535,19 +545,7 @@ img {
   width: 90%;
 }
 
-/* .container-fluid .card-columns .card .card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-}
-
-.container-fluid .card-columns .card img {
-    vertical-align: middle;
-    border-style: none;
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-} */
+/* DIFFERENT SCREEN RESOLUTION SECTION */
 
 @media screen and (max-width: 1393px) {
     #site-description {
