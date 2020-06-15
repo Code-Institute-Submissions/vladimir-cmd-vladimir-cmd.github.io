@@ -4,6 +4,8 @@ Delicious food gives news and reviews from world's best cusisines.
 Site goal is to make it easier for others when it comes to food making or recipe seaching.
 Visitor should be able to browse the recepies without registering.
 In case that user wants to be able to save collection of recepies, or add his\her recepies, it should be able to do so.
+
+[Delicious Food Web Site Link](https://vladimir-cmd.github.io/index.html "Delicious Food Homepage")
  
 ## User Experience
 
@@ -28,28 +30,46 @@ Reason why creating this website:
 
 ## Features
 
+### Page Features:
+* **Home Page**: 
+- Home page contains section with reasons why you should eat healthy. 
+- Contains section with list of Cuisines. 
+- Contains a table of top 5 favorite recipes of the month.
+
+* **Gallery**:
+- Gallery page contains images of delicious food.
+
+* **Contact**:
+- Contact page contains an email form which visitor can fill out and send.
+
+* **Cusisine**:
+- Each Cuisine has its own dedicated page. The list of Cuisines:
+   - Italian Cuisine
+   - Chinese Cuisine
+   - Mexican Cuisine
+   - Serbian Cuisine
+   - Thai Cuisine
+   - Turkish Cuisine
+- Each Cuisine contains a brief description and a list of four recipes.
+
 ### All Page Features:
 * **Semantic HTML**: All pages have been written with semantic HTML in mind.
 * **Fixed Header**: Each page has a fixed header, for ease of navigation.
 * **Responsive Design**: Site pages are designed to work on all sizes of device.
-* **Read More**: Front page contains Read More button for each Cusine for ease of navigation.
-* **Gallery**: A page full of photos of tasty food, can bebrowsed and downloaded.
  
 ### Specific Features:
-* **Subscribe to Newsletter**: This site includes subscribe to newsletter section where visitor can subscribe for the latest recepies
-* **Top 5 best recepies**: This site includes top 5 monthly recepies on front page
-
-### Features Left to Implement
-* **Registration page**: Since this is the first milestone project, and since I cannot use database yet, registration page is just a skeleton page. However, it is a functional up until the point when you clikc the register button.
+* **Subscribe to Newsletter**: Every page includes subscribe to newsletter section where visitor can subscribe for the latest recepies.
+* **Top 5 best recepies**: Home page includes top 5 monthly recepies section.
+* **Read More**: Front page contains Read More button for each Cusine for ease of navigation.
 
 ## Technologies Used
 
 In this project the following technologies have been used.
 
 - **HTML**
- 
+   - Semantic markup language as the shell of the site.
 - **CSS**
-
+   - Cascading Style Sheets as the design of the site.
 - **Google Font**
 
 - **FontAwesome**
