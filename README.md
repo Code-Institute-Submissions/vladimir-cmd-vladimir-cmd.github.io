@@ -1,18 +1,17 @@
 # Delicious Food
 
-Delicious food gives news and reviews from world's best cusisines.
+Delicious food is a place where one can read about world's best cusisines.
 Site goal is to make it easier for others when it comes to food making or recipe seaching.
-Visitor should be able to browse the recepies without registering.
-In case that user wants to be able to save collection of recepies, or add his\her recepies, it should be able to do so.
+Visitor should be able to browse the recipes without registering.
 
-[Delicious Food Web Site Link](https://vladimir-cmd.github.io/index.html "Delicious Food Homepage")
+# <p align="center">[Delicious Food Web Site Link](https://vladimir-cmd.github.io/index.html "Delicious Food Homepage")</p>
  
 ## User Experience
 
 ### Plan
 
 Delicious food website is the best place to be if you are a food lover, or someone who loves making food for self and the others.
-
+It is simple and clean website, easy to navigate between pages. On home page there is a short representation of world's best cuisines, and you can go and read more about them with just a click of a button.
 This website is for either a person who had never cooked in their live, just starting with food making, or for an experienced cooker who would like to broaden its experience.
 
 ### User Stories
@@ -24,33 +23,49 @@ Reason why creating this website:
 * be a place where visitor can subscribe for a newsletter, to be up to date with latest recepies
 * be a place where visitor can check for the top 5 monthly recepies
 * be a place where visitor can check the photos of various types of food
-* be a place where visitor can register to upload its own recepies
 * be a place where visitor can create lists of its favorite recepies
-* be a place where visitor can join the community and share recepies with others via email or social network
 
 ## Features
 
 ### Page Features:
-* **Home Page**: 
-- Home page contains section with reasons why you should eat healthy. 
-- Contains section with list of Cuisines. 
-- Contains a table of top 5 favorite recipes of the month.
+* [Home](https://vladimir-cmd.github.io/index.html)
+   - This page starts with a header, with a hero image coming right after.
+   - Home page contains section with reasons why you should eat healthy. 
+   - Contains section with list of Cuisines with a "read more" button. 
+   - Contains a table of top 5 favorite recipes of the month.
+   - At the bottom of the page is a neat row of social links consisting of Facebook, Twitter, Instagram and Youtube.
 
-* **Gallery**:
-- Gallery page contains images of delicious food.
+* [Gallery](https://vladimir-cmd.github.io/gallery.html)
+   - Gallery page contains images of delicious food.
+   - This page starts with a header.
+   - For a Desktop resolution, there are three columns.
+   - Images are a bit enlarged when you hover over it.
+   - Each image has a title and a small description.
+   - Newsletter subsection follows, where visitor can subscribe.
+   - At the bottom of the page is a neat row of social links consisting of Facebook, Twitter, Instagram and Youtube.
 
-* **Contact**:
-- Contact page contains an email form which visitor can fill out and send.
+* [Contact](https://vladimir-cmd.github.io/contact_me.html)
+   - Contact page contains an email form which visitor can fill out and send.
+   - This page starts with a header, with a hero image coming right after.
+   - Over the hero image there is a contact form box.
+   - The required fields are clearly indicated, with a possible notification in case a visitor doesn't fill all the required fields successfully.
+   - Newsletter subsection follows, where visitor can subscribe.
+   - At the bottom of the page is a neat row of social links consisting of Facebook, Twitter, Instagram and Youtube.
 
 * **Cusisine**:
-- Each Cuisine has its own dedicated page. The list of Cuisines:
-   - Italian Cuisine
-   - Chinese Cuisine
-   - Mexican Cuisine
-   - Serbian Cuisine
-   - Thai Cuisine
-   - Turkish Cuisine
-- Each Cuisine contains a brief description and a list of four recipes.
+   - Each Cuisine has its own dedicated page. The list of Cuisines:
+      - [Italian Cuisine](https://vladimir-cmd.github.io/Italian.html)
+      - [Chinese Cuisine](https://vladimir-cmd.github.io/Chinese.html)
+      - [Mexican Cuisine](https://vladimir-cmd.github.io/Mexican.html)
+      - [Serbian Cuisine](https://vladimir-cmd.github.io/Serbian.html)
+      - [Turkish Cuisine](https://vladimir-cmd.github.io/Turkish.html)
+      - [Thai Cuisine](https://vladimir-cmd.github.io/Thai.html)
+   - This page starts with a header.
+   - Each page contains description of selected cuisine.
+   - Each page contains 4 recipes each.
+   - Recipes are sorted in two columns for Desktop Resolution, and one column for Mobile resolution.
+   - Newsletter subsection follows, where visitor can subscribe.
+   - At the bottom of the page is a neat row of social links consisting of Facebook, Twitter, Instagram and Youtube.
 
 ### All Page Features:
 * **Semantic HTML**: All pages have been written with semantic HTML in mind.
@@ -66,23 +81,35 @@ Reason why creating this website:
 
 In this project the following technologies have been used.
 
-- **HTML**
+- [HTML](https://en.wikipedia.org/wiki/HTML) 
    - Semantic markup language as the shell of the site.
-- **CSS**
+
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
    - Cascading Style Sheets as the design of the site.
-- **Google Font**
 
-- **FontAwesome**
-   - **FontAwesome** provided the icons used on the page
+- [Google Fonts](https://fonts.google.com/)
+   - Google's font catalog places typography front and center, inviting users to explore, sort, and test fonts for use in more than 135 languages.
 
-- **Bootstrap 4**
-   - The **Bootstrap 4** framework was used to help layout the webpage
- 
-- **FontAwesome**
-   - **FontAwesome** provided the icons used on the page
+- [FontAwesome](https://fontawesome.com/)
+   - **FontAwesome** provided the icons used on the page.
 
+- [Bootstrap 4](https://getbootstrap.com/)
+   - To be easily responsive, navbar, the list groups, card decks and forms were used to give a clean, simple and ordered look. I wanted to re-inforce what I had learnt from the UCFD module.
 
+- [Gitpod](https://gitpod.io/) 
+  - IDE (Integrated Development Environment).
 
+- [GitHub](github.com/) 
+  - The remote hosting platform. 
+
+- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) 
+  - To see visually the elements of what each code produced, what happens if code is changed, and responsiveness of different device sizes.
+
+- [Jigsaw](https://jigsaw.w3.org/css-validator) 
+  - To check for any errors in the CSS code.
+
+- [W3C Markup Validator](https://validator.w3.org/) 
+  - To check for any errors in HTML code.
 
 ## Testing
 
@@ -107,14 +134,6 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Deployment
 
 Creation of website
-
-1. Created a repository on my GitHub account
-2. Cloned the repository on my local machine
-3. Created initial html files and pushed to master branch
-4. Opened repl.it and imported repository from github
-5. Worked on website
-6. Was working with just master branch, as this is an inital milestone project, no need to create branches
-7. Final push to github
 
 This website is deployed using GitHub pages.
 
