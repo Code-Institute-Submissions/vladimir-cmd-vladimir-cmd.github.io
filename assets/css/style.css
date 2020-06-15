@@ -518,7 +518,7 @@ img {
 
 /* Recipes Section */
 
-#title-cuisine {
+.title-cuisine {
     text-align: center;
     margin: 20px 0;
     font-size: 180%;
@@ -626,7 +626,7 @@ img {
       padding-top: 20px;
     }
 
-    #title-cuisine {
+    .title-cuisine {
       font-size: 150%;
       margin-top: -20px;
     }
