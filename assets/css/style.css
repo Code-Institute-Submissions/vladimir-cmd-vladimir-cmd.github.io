@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&family=Source+Sans+Pro:ital@1&display=swap');
+
 /* WHOLE SITE SETTINGS */
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +29,7 @@ h3 {
     font-family: DM Mono, Source Sans Pro, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 }
+
 
 /* HEADER SECTION */
 
@@ -65,6 +68,7 @@ nav ul li a {
     color: inherit;
 }
 
+
 /* HERO IMAGE SECTION */
 
 #main_img {
@@ -98,6 +102,7 @@ nav ul li a {
     }
 }
 
+
 /* COVER TEXT SECTION */
 
 #cover-text,
@@ -123,6 +128,7 @@ cover-text h2 {
     border-radius: 15px;
     position: absolute;
 }
+
 
 /* MIDDLE PANEL SITE DESCRIPTION SECTION */
 
@@ -198,6 +204,7 @@ hr {
     border-width: 5px;
 }
 
+
 /* TABLE FAVORITES SECTION */
 
 #favorite {
@@ -223,12 +230,13 @@ hr {
     margin: 0 auto;
 }
 
+
 /* MAIN PAGE CUISINE SECTION */
 
 #cuisines-title {
-  text-align: center;
-  font-size: 250%;
-  font-weight: 600;
+    text-align: center;
+    font-size: 250%;
+    font-weight: 600;
 }
 
 .container-fluid {
@@ -267,6 +275,7 @@ hr {
     bottom: 25px;
     left: 15px;
 }
+
 
 /* NEWSLETTER SECTION */
 
@@ -307,6 +316,7 @@ hr {
     font-weight: 400;
 }
 
+
 /* SOCIAL NETWORKS SECTION */
 
 .social-networks {
@@ -325,10 +335,10 @@ hr {
 }
 
 #photo {
-  clear: both;
-  line-height: 0;
-  column-count: 3;
-  column-gap: 0px;
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
 }
 
 #photo img {
@@ -336,12 +346,13 @@ hr {
 }
 
 .container-fluid {
-  padding-top: 80px;
+    padding-top: 80px;
 }
+
 
 /* FORM SECTION */
 
-#main_img_outer_contact_me {    
+#main_img_outer_contact_me {
     height: 1000px;
     width: 100%;
     overflow: hidden;
@@ -365,14 +376,14 @@ hr {
     padding: 0.5em;
     width: 40%;
     background-color: white;
-	  border-radius: 8px;
+    border-radius: 8px;
     border: 1px solid gray;
     box-shadow: 0px 0px 25px 3px gray;
     position: absolute;
 }
 
 .form {
-  padding-left: 250px;
+    padding-left: 250px;
 }
 
 .form-legend {
@@ -408,7 +419,7 @@ hr {
     border-radius: 5px;
     text-indent: 15px;
     border: 1px solid Blue;
-    background-color: rgba(93,153,198,0.1);
+    background-color: rgba(93, 153, 198, 0.1);
 }
 
 .form-input input::placeholder,
@@ -428,15 +439,15 @@ hr {
     text-shadow: Shadow;
     background-color: Blue;
     -webkit-transition: all 0.3s ease-in-out;
-       -moz-transition: all 0.3s ease-in-out;
-         -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .form-submit:hover {
     transform: scale(1.1);
     background-color: Purple;
-    box-shadow: 0px 7px 7px -2px rgba(0,0,0,0.5);
+    box-shadow: 0px 7px 7px -2px rgba(0, 0, 0, 0.5);
 }
 
 .form-buttons {
@@ -445,22 +456,23 @@ hr {
     justify-items: center;
 }
 
+
 /* GALLERY SECTION */
 
 .container-fluid .card-group .card .card-block .card-title {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 .container-fluid .card-group .card .card-block .card-text {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
 }
 
 .card:hover {
@@ -470,63 +482,67 @@ img {
     box-shadow: gray;
 }
 
+
 /* CUISINE SECTION */
+
 
 /* Cuisine Main Image Section */
 
 #chinese-cuisine-main-img {
-  height: 500px;
-  width: 100%;
-  background: url("/assets/img/Chinese-Cuisine-Dishes.jpg") no-repeat center center;
-  background-size: cover;
+    height: 500px;
+    width: 100%;
+    background: url("/assets/img/Chinese-Cuisine-Dishes.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #italian-cuisine-main-img {
-  height: 500px;
-  width: 100%;
-  background: url("/assets/img/pizza-side-after.jpg") no-repeat center center;
-  background-size: cover;
+    height: 500px;
+    width: 100%;
+    background: url("/assets/img/pizza-side-after.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #mexican-cuisine-main-img {
-  height: 500px;
-  width: 100%;
-  background: url("/assets/img/Mexican_Cuisine_Street_Food.jpg") no-repeat center center;
-  background-size: cover;
+    height: 500px;
+    width: 100%;
+    background: url("/assets/img/Mexican_Cuisine_Street_Food.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #serbian-cuisine-main-img {
-  height: 500px;
-  width: 100%;
-  background: url("/assets/img/Serbian-Cuisine.jpg") no-repeat center center;
-  background-size: cover;
+    height: 500px;
+    width: 100%;
+    background: url("/assets/img/Serbian-Cuisine.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #thai-cuisine-main-img {
-  height: 500px;
-  width: 100%;
-  background: url("/assets/img/Thai-Cuisine-Wrap.jpg") no-repeat center center;
-  background-size: cover;
+    height: 500px;
+    width: 100%;
+    background: url("/assets/img/Thai-Cuisine-Wrap.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #turkish-cuisine-main-img {
-  height: 500px;
-  width: 100%;
-  background: url("/assets/img/Turkish-Cuisine-Table-2.png") no-repeat center center;
-  background-size: cover;
+    height: 500px;
+    width: 100%;
+    background: url("/assets/img/Turkish-Cuisine-Table-2.png") no-repeat center center;
+    background-size: cover;
 }
 
 #cuisine-main-image-section {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
+
 
 /* Cuisine Description Section */
 
 .cuisine-description-container {
-  margin-top: -50px;
+    margin-top: -50px;
 }
+
 
 /* Cuisine Recipes Section */
 
@@ -537,13 +553,28 @@ img {
     margin-bottom: 20px;
 }
 
+.title-recipes {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 140%;
+    margin-bottom: 20px;
+}
+
+.title-recipes {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 110%;
+    margin-bottom: 20px;
+}
+
 .ingredients {
-  width: 90%;
+    width: 90%;
 }
 
 .method {
-  width: 90%;
+    width: 90%;
 }
+
 
 /* DIFFERENT SCREEN RESOLUTION SECTION */
 
@@ -554,102 +585,82 @@ img {
         margin: 0 auto;
         padding: 0px;
     }
-
     #welcome {
         padding-top: 30px;
         text-align: left;
     }
-
     #left-panel,
     #right-panel {
         width: 100%;
         float: left;
     }
-
     #left-panel-heading,
     #right-panel-heading {
         margin: 0;
         padding: 0;
     }
-    
     #center-panel {
         clear: both;
         width: 100%;
         float: left;
         padding: 0 0 20px 0;
     }
-
     .container-fluid {
         padding-bottom: 30px;
     }
-
     .container-fluid .row {
-      margin-top: -50px;
-      padding-left: 130px;
+        margin-top: -50px;
+        padding-left: 130px;
     }
-
     .container-fluid .row div {
         padding-top: 25px;
         padding-bottom: 35px;
     }
-
     .container-fluid .row div .btn {
         position: absolute;
         bottom: 13px;
         left: 13px;
     }
-
     .container-fluid .card-columns {
         column-count: 2;
     }
-
     #left-favorite {
-      width: 15%;
+        width: 15%;
     }
-
     #center-favorite {
-      width: 15%;
+        width: 15%;
     }
-
     #right-favorite {
-      width: 70%;
-      float: right;
+        width: 70%;
+        float: right;
     }
-    
     .cuisine-description-container {
-      margin-top: 30px;
+        margin-top: 30px;
     }
-
     .container-fluid {
-      padding-top: 20px;
+        padding-top: 20px;
     }
-
     .title-cuisine {
-      font-size: 150%;
-      margin-top: -20px;
+        font-size: 150%;
+        margin-top: -20px;
     }
-
     .recipe-container .container-fluid .row {
-      padding-left: 20px;
-      margin: 0;
+        padding-left: 20px;
+        margin: 0;
     }
-    
     .recipe-container .container-fluid .row div {
-      margin-top: -20px;
+        margin-top: -20px;
     }
-    
     .recipe-container .container-fluid .row div h2 {
-      margin-top: -20px;
-      font-size: 130%;
+        margin-top: -20px;
+        font-size: 130%;
     }
-    
     .recipe-container .container-fluid .row div .ingredients h4 {
-      font-size: 120%;
+        font-size: 120%;
     }
-    
     .recipe-container .container-fluid .row div .method h4 {
-      margin-top: -35px;
-      font-size: 120%;
+        margin-top: -35px;
+        font-size: 120%;
     }
 }
 
@@ -659,7 +670,6 @@ img {
         padding: 0px;
         height: 550px;
     }
-
     #navigation {
         clear: left;
         float: left;
@@ -667,19 +677,15 @@ img {
         margin-bottom: 20px;
         line-height: 25px;
     }
-
     #cover-text {
         left: 0px;
     }
-
     #cover-text-sign-up {
         left: 10px;
     }
-
     #logo {
         margin-left: 20px;
     }
-
     #welcome {
         text-align: left;
         font-size: 120%;
@@ -687,57 +693,47 @@ img {
         margin: 0 auto;
         padding-top: 20px;
     }
-
     #left-panel,
     #right-panel {
         padding-top: 10px;
         font-size: 100%;
     }
-    
     .left-panel-heading {
         width: inherit;
         margin-left: 0;
     }
-
     .right-panel-heading {
         width: inherit;
         margin-right: 0;
         font-size: 100%;
     }
-
     .right-panel-heading h3,
     .left-panel-heading h3 {
         width: 100%;
         text-align: left;
         font-size: 100%;
     }
-
     .right-panel-heading p,
     .left-panel-heading p {
         width: 100%;
         text-align: left;
         padding: 0 10px 0 10px;
     }
-
     #photo {
         column-count: 3;
     }
-
     .container {
-      padding-top: 80px;
+        padding-top: 80px;
     }
-
     #left-favorite {
-      width: 0%;
+        width: 0%;
     }
-
     #center-favorite {
-      width: 0%;
+        width: 0%;
     }
-
     #right-favorite {
-      width: 100%;
-      float: right;
+        width: 100%;
+        float: right;
     }
 }
 
@@ -745,14 +741,12 @@ img {
     .container-fluid .card-columns {
         column-count: 2;
     }
-
     .static-top {
         position: fixed;
         top: 0;
         right: 0;
         left: 0;
     }
-
     #cover-text {
         left: 30px;
         width: 260px;
@@ -762,19 +756,16 @@ img {
         padding-right: 10px;
         position: absolute;
     }
-
     #cover-text h2 {
         font-size: 100%;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
-
     #cover-text h3 {
         font-size: 100%;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
-
     #cover-text-sign-up,
     cover-text-sign-up h4 {
         color: #ffffff;
@@ -785,21 +776,17 @@ img {
         padding-left: 10px;
         padding-right: 0px;
     }
-
     .center-panel-square {
         display: none;
     }
-
     #favorite h3 {
         font-size: 130%;
     }
-
     .newsletter .content h2 {
         color: #243c4f;
         margin-bottom: 40px;
         font-size: 120%;
     }
-
     .newsletter .content .btn {
         min-height: 50px;
         border-radius: 0;
@@ -807,111 +794,88 @@ img {
         color: #fff;
         font-weight: 400;
     }
-    
     #cuisines-title {
-      padding-right: 30px;
+        padding-right: 30px;
     }
-
     .container-fluid .row {
-      margin-top: -50px;
-      padding-left: 70px;
+        margin-top: -50px;
+        padding-left: 70px;
     }
-
     .container-fluid .row div {
         padding-bottom: 25px;
     }
-
     .container-fluid .row div .btn {
-      bottom: 13px;
-      left: 13px;
+        bottom: 13px;
+        left: 13px;
     }
-
     .form-container fieldset {
-      width: 60%;
+        width: 60%;
     }
-
     .form {
-      padding-left: 150px;
+        padding-left: 150px;
     }
-
     #left-favorite {
-      width: 0%;
+        width: 0%;
     }
-
     #center-favorite {
-      width: 0%;
+        width: 0%;
     }
-
     #right-favorite {
-      width: 100%;
-      float: right;
+        width: 100%;
+        float: right;
     }
-
     .recipe-container .container-fluid .row {
-      padding: 0;
-      margin: 0;
+        padding: 0;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 576px) {
     .navbar-collapse ul li {
-      font-size: 80%;
+        font-size: 80%;
     }
-
     .dropdown-menu a {
-      font-size: 70%;
+        font-size: 70%;
     }
-
     .input-group-btn {
         padding-top: 15px;
     }
-
     .newsletter .content .btn {
         font-weight: 400;
     }
-    
     #cuisines-title {
-      padding-top:20px;
-      padding-right: 50px;
-      margin-bottom: -10px;
-      font-size: 170%;
+        padding-top: 20px;
+        padding-right: 50px;
+        margin-bottom: -10px;
+        font-size: 170%;
     }
-
     .container-fluid .row {
-      margin-top: -50px;
-      padding-left: 30px;
+        margin-top: -50px;
+        padding-left: 30px;
     }
-
     .container-fluid .row div {
         padding-bottom: 25px;
     }
-
     .container-fluid .row h4 {
         font-weight: 400;
         font-size: 150%;
     }
-
     .container-fluid .row div .btn {
         left: 13px;
     }
-
     .container-fluid .card-columns {
         column-count: 1;
     }
-
     #welcome {
         text-align: center;
     }
-
     .form {
-      padding-left: 3px;
+        padding-left: 3px;
     }
-
     .form-container fieldset {
-      width: 98%;
+        width: 98%;
     }
-
     #favorite {
-      display: none;
+        display: none;
     }
 }
