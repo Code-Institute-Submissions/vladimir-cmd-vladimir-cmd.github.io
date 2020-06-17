@@ -8,7 +8,7 @@ Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) website v
 
 2. gallery.html validator results.
 
-<p align="center"><img width="350" height="300" src="test-results/gallery.html"></p>
+<p align="center"><img width="350" height="300" src="test-results/gallery_html_validation.png"></p>
 
 ## User stories:
 
