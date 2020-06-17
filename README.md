@@ -27,7 +27,7 @@ Reason why creating this website:
 
 ## Wireframes
 I used [AdobeXD](https://www.adobe.com/ie/products/xd.html) to create
-[wireframes](https://github.com/vladimir-cmd/vladimir-cmd.github.io/tree/master/wireframes) in desktop, tablet and phone view.
+[wireframes](https://github.com/vladimir-cmd/vladimir-cmd.github.io/tree/master/wireframes-mockups) in desktop, tablet and phone view.
 
 ## Features
 
