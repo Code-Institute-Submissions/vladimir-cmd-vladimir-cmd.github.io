@@ -230,7 +230,7 @@ hr {
 /* MAIN PAGE CUISINE SECTION */
 
 #cuisines {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 #cuisines-title {
@@ -574,7 +574,7 @@ img {
 }
 
 .ul .ingredients-list {
-  list-style-type: circle;
+    list-style-type: circle;
 }
 
 .method {
@@ -582,8 +582,9 @@ img {
 }
 
 .ol .method-list {
-  list-style-type: upper-roman;
+    list-style-type: upper-roman;
 }
+
 
 /* DIFFERENT SCREEN RESOLUTION SECTION */
 
@@ -633,19 +634,15 @@ img {
     .container-fluid .card-columns {
         column-count: 2;
     }
-
     .container-fluid .card-columns .card .card-block .card-title {
         padding-left: 20px;
     }
-
     .container-fluid .card-columns .card .card-block .card-text {
         padding-left: 20px;
     }
-
     .form-container {
         padding-left: 50px;
     }
-
     #left-favorite {
         width: 15%;
     }
@@ -656,11 +653,9 @@ img {
         width: 70%;
         float: right;
     }
-
     #cuisines {
-      margin-top: -30px;
+        margin-top: -30px;
     }
-
     .cuisine-description-container {
         margin-top: 30px;
     }
@@ -689,8 +684,6 @@ img {
         margin-top: -35px;
         font-size: 120%;
     }
-
-    
 }
 
 @media screen and (max-width: 943px) {
@@ -765,14 +758,14 @@ img {
         float: right;
     }
     #cuisines {
-      margin: 0px;
+        margin: 0px;
     }
     hr {
-      visibility: hidden;
+        visibility: hidden;
     }
     .form-container fieldset {
-      width: 70%;
-  }
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -782,7 +775,6 @@ img {
     .container-fluid .card-columns .card .card-block .card-title {
         padding-left: 10px;
     }
-
     .container-fluid .card-columns .card .card-block .card-text {
         padding-left: 10px;
     }
