@@ -116,7 +116,7 @@ In this project the following technologies have been used.
   - To check for any errors in HTML code.
 
 # Testing 
-Testing information is found on a separate file [TESTING.md](TESTING.md)
+Testing information is found on a separate file [TESTING.MD](https://github.com/vladimir-cmd/vladimir-cmd.github.io/blob/master/TESTING.MD)
 
 ## Deployment
 
