@@ -131,7 +131,7 @@ If the ‘Email Address’ field is not filled and user clicks 'Send' then the m
 
 If the ‘Email Address’ field is not valid and you click the ‘Send’ button then the message ‘Please include a ‘@‘ in the email address ‘___’ is missing a ‘@‘ appears.
 
-If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Submit’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
+If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Send’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
 
 When you click the ‘Send’ button it goes into a purple color.
 
@@ -151,7 +151,7 @@ If the ‘Email Address’ field is not filled and user clicks 'Send' then the m
 
 If the ‘Email Address’ field is not valid and you click the ‘Send’ button then the message ‘Please include a ‘@‘ in the email address ‘___’ is missing a ‘@‘ appears.
 
-If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Submit’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
+If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Send’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
 
 When you click the ‘Send’ button it goes into a purple color.
 
@@ -171,7 +171,7 @@ If the ‘Email Address’ field is not filled and user clicks 'Send' then the m
 
 If the ‘Email Address’ field is not valid and you click the ‘Send’ button then the message ‘Please include a ‘@‘ in the email address ‘___’ is missing a ‘@‘ appears.
 
-If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Submit’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
+If the ‘Email Address’ field has been partly filled in with half the email address and you click the ‘Send’ Button then another message comes up ’Please enter a part following ‘@‘, ‘___@‘ is incomplete’.
 
 When you click the ‘Send’ button it goes into a purple color.
 
