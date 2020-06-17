@@ -89,7 +89,7 @@
     </section>
     <!-- Cuisines section -->
     <section id="cuisines">
-        <hr>
+        <!-- <hr> -->
         <h2 id="cuisines-title">Cuisines</h2>
         <div class="container-fluid">
             <div class="row">
@@ -211,22 +211,25 @@
         </div>
         <div id="center-favorite"></div>
     </section>
-    <!-- Newsletter section -->
+    <!-- Newsletter Section -->
     <section class="newsletter">
         <div class="container">
-            <div class="row">
+          <form class="needs-validation">
+            <div class="form-row">
                 <div class="col-sm-12">
                     <div class="content">
                         <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                            <span class="input-group-btn col-sm-3 col-md-3">
-                      <button class="btn" type="submit">Subscribe</button>
-                      </span>
-                        </div>
+                          <div class="input-group">
+                            <label for="validationCustome01"></label>
+                              <input type="email" class="form-control" id="validationCustome01" placeholder="Enter your email" required>
+                              <span class="input-group-btn col-sm-3 col-md-3">
+                                <button class="btn" class="form-control" value="Subscribe" type="submit">Subscribe</button>
+                              </span>
+                          </div>
                     </div>
                 </div>
             </div>
+          </form>
         </div>
     </section>
     <!-- Footer section -->
@@ -239,7 +242,6 @@
         </ul>
     </footer>
 
-    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
