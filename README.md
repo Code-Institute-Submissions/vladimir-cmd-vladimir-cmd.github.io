@@ -125,49 +125,49 @@ Creation of website
 This website is deployed using GitHub pages.
 
 **GitHub pages** was used to deploy this site.
-    - Go to repository master branch ([Source](https://github.com/vladimir-cmd/vladimir-cmd.github.io))
-    - Press Settings button on right.
-    - Scroll down to Github Pages section.
-    - There will be link to website
-Note: there is only a master branch. No other branches were created.
+  1. Go to repository master branch ([Source](https://github.com/vladimir-cmd/vladimir-cmd.github.io))
+  2. Press Settings button on right.
+  3. Scroll down to Github Pages section.
+  4. There will be link to website
+  Note: there is only a master branch. No other branches were created.
 
 To run the copy of website, there are two options:
-
-1. Sign to your GitHub account
-2. search for the following repository: https://github.com/vladimir-cmd/vladimir-cmd.github.io
-3. In the upper right corner click on "Fork" button
-4. You have successfully duplicated my website to your GitHub account
+  1. Sign to your GitHub account
+  2. search for the following repository: https://github.com/vladimir-cmd/vladimir-cmd.github.io
+  3. In the upper right corner click on "Fork" button
+  4. You have successfully duplicated my website to your GitHub account
 
 OR
 
 Important: must have git CLI installed on local machine
-1. Sign to your GitHub account
-2. search for the following repository: https://github.com/vladimir-cmd/vladimir-cmd.github.io
-3. Click on "Clone or download" button and copy the path
-4. Open Command Line interface (Windows - Powershell or Linux\MacOS - Terminal)
-5. git clone https://github.com/vladimir-cmd/vladimir-cmd.github.io.git
-6. You have successfully clonned repository on your local machine
-Note: You would require a web server to run the site from your local machine.
-As a workaround, you can use repl.it
+  1. Sign to your GitHub account
+  2. search for the following repository: https://github.com/vladimir-cmd/vladimir-cmd.github.io
+  3. Click on "Clone or download" button and copy the path
+  4. Open Command Line interface (Windows - Powershell or Linux\MacOS - Terminal)
+  5. git clone https://github.com/vladimir-cmd/vladimir-cmd.github.io.git
+  6. You have successfully clonned repository on your local machine
+  Note: You would require a web server to run the site from your local machine.
+  As a workaround, you can use repl.it
 
 You can open the site in repl.it
-1. Sign to your GitHub account
-2. search for the following repository: https://github.com/vladimir-cmd/vladimir-cmd.github.io
-3. Click on "Clone or download" button and copy the path
-4. Open repl.it
-5. Navigate to myrepls
-6. In the upper right corner click on "new repl"
-7. In a new window, select "Import From GitHub"
-8. Paste the link you copied in step 3
+  1. Sign to your GitHub account
+  2. search for the following repository: https://github.com/vladimir-cmd/vladimir-cmd.github.io
+  3. Click on "Clone or download" button and copy the path
+  4. Open repl.it
+  5. Navigate to myrepls
+  6. In the upper right corner click on "new repl"
+  7. In a new window, select "Import From GitHub"
+  8. Paste the link you copied in step 3
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for Cuisines Description section in all six dedicated pages for world's cuisines was copied from the [Wikipedia](https://en.wikipedia.org/)
+- The text for Cuisines Recipe section in all six dedicated pages for world's cuisines was copied from the [BBC Good Food](https://www.bbcgoodfood.com/)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site are my personal photos.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I want to give huge thanks to my mentor [Precious Ilege](https://www.linkedin.com/in/precious-ijege-908a00168/) for guiding me thru this milestone project. I would not be able to finish this project on time if not for Precious. His suggestions, advices, and mentoring helped me in great deal to finish this project on time, even though I started late.
